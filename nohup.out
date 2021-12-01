@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap>", line 966, in _find_and_load
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "firebase.py", line 7, in <module>
+    import baseFunction
+  File "/workspace/RoomDentist/baseFunction.py", line 6, in <module>
+    import cv2
+  File "/usr/local/lib/python3.6/dist-packages/cv2/__init__.py", line 5, in <module>
+    from .cv2 import *
+ImportError: numpy.core.multiarray failed to import
+Traceback (most recent call last):
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 658, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 571, in module_from_spec
+  File "<frozen importlib._bootstrap_external>", line 922, in create_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+RuntimeError: KeyboardInterrupt: 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "firebase.py", line 7, in <module>
+    import baseFunction
+  File "/workspace/RoomDentist/baseFunction.py", line 10, in <module>
+    from detects import detectFunction
+  File "/workspace/RoomDentist/detects.py", line 9, in <module>
+    import torch
+  File "/usr/local/lib/python3.6/dist-packages/torch/__init__.py", line 197, in <module>
+    from torch._C import *  # noqa: F403
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+KeyboardInterrupt
+ * Serving Flask app 'firebase' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on https://192.168.10.6:6000/ (Press CTRL+C to quit)
